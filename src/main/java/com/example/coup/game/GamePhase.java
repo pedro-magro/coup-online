@@ -1,0 +1,10 @@
+package com.example.coup.game;
+
+public enum GamePhase {
+    WAITING_FOR_PLAYERS,
+    AWAITING_ACTION,
+    AWAITING_FOREIGN_AID_BLOCK,
+    AWAITING_INFLUENCE_LOSS,
+    GAME_OVER,
+    AWAITING_ACTION_CHALLENGE
+}
